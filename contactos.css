@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(224, 133, 148, 0.432);
+}
+
+
+
+ul .Menu1{
+    margin: 25px;
+}
+ ul{
+    list-style: none;
+    margin-top: 35px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-family: 'Sriracha', cursive;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+
+.rounded{
+    width: 55%;
+    max-width:500px;
+
+}
+
+.col-12{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+}
+
+.col-12 h1{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.col-12 h2{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.col-12 h3{
+    font-size: 18px;
+
+}
+
+.col-11 button{
+    float: right;
+   margin: 20px;
+   border: none;
+   font-family: 'Noto Serif', serif;
+   }
+
+.col-11 img{
+    float: right;
+    margin-left: 10px;
+
+   }
+
+
+   .col-11{
+background-color: black;
+font-family: 'Noto Serif', serif;
+
+   }
+
+
+
+
+
+

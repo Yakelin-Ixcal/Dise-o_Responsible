@@ -1,0 +1,122 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(img/compra.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Crimson Pro', serif;
+    font-family: 'Girassol', cursive;
+    
+}
+
+
+.login {
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+.login h1{
+    float: left;
+    font-size: 40px;
+    border-bottom:6px solid rgb(108, 142, 252);
+    margin-bottom: 50px;
+    padding: 13px;
+
+}
+
+  .caja1{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid rgb(79, 152, 189);
+}
+
+.caja2{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid rgb(79, 152, 189);
+}
+.caja3{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid rgb(79, 152, 189);
+}
+   
+     
+
+img{
+    width: 28px; height: 28px;
+
+    float: left;
+    text-align: center;
+
+
+}
+
+.caja1 input{
+
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    width: 150px;
+    float: left;
+
+}
+
+.caja2 input{
+
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    width: 150px;
+    float: left;
+}
+.caja3 input{
+
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    width: 150px;
+    float: left;
+
+}
+
+
+button{
+
+   width: 100%;
+   background: none;
+   font-size: 18px;
+   border: 2px solid white;
+   color: white;
+   padding: 5px;
+   cursor: pointer;
+   margin: 10px;
+
+
+}
+

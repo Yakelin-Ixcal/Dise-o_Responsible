@@ -1,0 +1,96 @@
+h5 {
+    color: rgba(0, 0, 0, 0.479);
+    font-family: 'Noto Serif', serif;
+}
+
+
+h3{
+    font-size: 38px;
+    font-family: 'Noto Serif', serif;
+}
+
+.col-12{
+    margin: 25px;
+}
+
+ul .Menu1{
+    margin: 25px;
+}
+ ul{
+    list-style: none;
+    margin-top: 35px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-family: 'Sriracha', cursive;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+
+.col-11 button{
+    float: left;
+   margin: 20px;
+   border: none;
+   font-family: 'Noto Serif', serif;
+
+}
+
+.col-12{
+    margin: 25px;
+    font-family: 'Noto Serif', serif;
+}
+
+
+.portada{
+   width: 100%;
+   height: 400px;
+   position: relative;
+   background-image: url(img/inicio.jpg);
+   background-size: 200%;
+   animation: movimiento 10s linear infinite;
+   color: white;
+   text-align: center;
+   font-family: 'Noto Serif', serif;
+   
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+     }
+ }
+
+
+ .capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.5px;
+ 
+ }
+ 
+
+
+
+
